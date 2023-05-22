@@ -1,0 +1,69 @@
+An operating system :  (OS) is system software that manages computer hardware, and software resources, and provides common services for computer programs.
+
+##################################################
+
+
+1.0 => Windows Vs Linux in Security
+
+   -  Linux is usually installed on the most important, mission-critical systems.
+   -  Most security appliances also run Linux  “Firewalls/Routers/IDS”.
+   -  In Windows all logged-in Users can have Administrator privileges while in 
+         Linux there is the idea of limited access accounts and a superuser called
+         root which controls all users’ privileges, the root is equivalent to the Administrator in windows.
+   -  Most security appliances also run Linux  “Firewalls/Routers/IDS”.
+
+##################################################
+
+2.0 => SSH connection: Y we need it 
+    There are a lot of scenarios that you want to log into your system but you are away from it, that’s why we need SSH
+
+##################################################
+
+3.0 => What is SSH? ... The Secure Shell Protocol (SSH) .. port 22 but not always
+
+cryptographic network protocol for operating network services securely over an unsecured network.
+
+NOTE :  Typical applications include remote command line, login, and remote command execution, but any network service can be secured with SSH.
+
+##################################################
+
+
+4.0 => connect using ssh 
+
+- ssh username@serverhost   ...  - serverhost is the ip || domain name of the remote server 
+                                 - userName is the user  
+                                 - -p port_number to add the port number different to 22  
+
+
+- another way is to use the private and public ssh keys 
+      private key in your computer and the public you send to the server this is good bcz the server dosent ask for password when you try to connect 
+
+
+ssh-keygen => generating the ssh key 
+ssh-copy-id root@serverhost => provide the publick key for the remote sercver
+
+after that you can create the ssh
+
+ 
+-------------------
+
+=> copy file to remote files 
+
+- scp index.html username@servername||ip:/var/www  this  is secure copy file into directory to the remote server 
+
+ - allow remote adminstration of servers
+
+##################################################
+
+
+
+
+
+
+##################################################
+
+ 
+
+
+
+ 

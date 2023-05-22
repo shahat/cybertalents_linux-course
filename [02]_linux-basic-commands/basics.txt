@@ -1,0 +1,69 @@
+System information commands:
+
+   - whoami    => This command prints out your current user .
+   - id        => UID, GID, and also all the groups that your current user is in.
+   - hostname  =>  prints out your machine’s hostname .
+   - Uname -a  =>  prints out your OS kernel version and Architecture .
+
+#######################################################
+
+Printing the current working directory:
+
+   - pwd        => print working directory  => note PWD is like a variable that refere to the current working directory .  
+   - echo $PWD  => same result
+ 
+#######################################################
+ 
+List Content of directories:
+
+   - ls         => 
+   - ls -l      => log listing with detailed information like the following 
+           
+        Type + Permissions    
+        Number of links
+        File Owner
+        Group Owner
+        File length
+        Date of creation
+
+   -ls -a       => all the files and dir also the hidden 
+
+#######################################################
+  
+Changing Current Directory:
+
+  - cd         => Changing Current Directory
+  - cd ..      => go back one step
+  - cd ../../  => go back two step 
+  - cd ~       => go to home 
+  - cd -       => go back to the previous workign directory 
+
+#######################################################
+
+Manipulating files and directories:
+
+ - mkdir 
+ - touch 
+ - mv           => With this built-in command to move or rename files and directories.
+                =>  mv ../task/fileToMove.txt .  => the . is the current working directory
+ - rm           =>  to remove files  / rm -rf  to remove directories
+ - rmdir        =>  remove empty dir 
+ - cp           =>  to copy files
+ - cat          =>  print file content 
+ - nano         =>  text editor 
+
+
+
+
+#######################################################
+
+getting help to a command 
+ 
+  - man        => provide you with all documentation 
+  - --help     => sammary
+
+
+
+ 
+
+
