@@ -1,0 +1,17 @@
+
+Software Installations with Terminal
+
+apt-get command
+
+apt-get is a command-line tool that helps in handling packages in Linux. Its main task is to retrieve the information and packages from the authenticated sources for installation, upgrade, and removal of packages along with their dependencies. Here APT stands for the Advanced Packaging Tool.
+
+    To install a package we can use the command     `sudo apt-get install packagename`.
+    To remove a package we can use the command    `sudo apt-get remove packagename`.
+    To update the package database we can use the command      `sudo apt-get update`.
+    To update all the packages to their latest version, we can use the command   `sudo apt-get upgrade`.
+
+
+ Why use the Terminal?
+
+    The terminal gives you access to the true potential of a computer system.
+

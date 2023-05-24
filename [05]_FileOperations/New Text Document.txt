@@ -1,0 +1,58 @@
+What will you learn :
+
+    Creating files.
+    Displaying file content.
+    Copying and deleting files.
+    Counting file content.
+
+
+##########################################
+
+    touch fileName.txt  create the files 
+------------------------------------------------
+=> cat  fileName.txt    show all content of the file 
+------------------------------------------------
+=> more : More is used to display file content, but the file is longer than the size of the window, it will display one page at a time.
+
+
+=> less : more better than the more you can navigate up and down using arrow keys 
+------------------------------------------------
+=> head file.txt  &&     tail file.txt : 
+      Both tools are file operators to display a specific part of the file, Head command is used to display the first part of the file and Tail is the opposite; it displays the last part of the file.
+
+     -n15 : this will display last or first command in the file 
+------------------------------------------------      
+=> grep : Grep is used to search for a keyword or a specific pattern in the file.
+
+------------------------------------------------
+=> wc :  this give you the word count 
+    
+------------------------------------------------
+=> Cp and mv commands :
+
+Cp command (copy) is used to copy a file or a group of files or a directory to a specific location, mv command (move) is used to move a files 
+or a group of files or a directory to another location.
+
+cp -r source distenation  : -r for copy directory 
+
+------------------------------------------------
+=> Rm command :
+
+Rm command is used to delete one or more files or directories.
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
